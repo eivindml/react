@@ -36,7 +36,7 @@ app.on('ready', function() {
 
   // set dock icon for macos
   if (os.platform() === 'darwin') {
-    app.dock.setIcon(join(__dirname, 'icons/icon128.png'));
+    app.dock.setIcon(join(__dirname, 'icons/macos1024.png'));
   }
 
   // https://stackoverflow.com/questions/32402327/
